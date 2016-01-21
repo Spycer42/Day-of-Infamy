@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "maps/terrain/peak_soil_04"
+	"$bumpmap"	"maps/terrain/peak_soil_02_normal"
+	"$surfaceprop" "gravel"
+
+	"$baseTexture2" "terrain/fr_grasswild_03"
+	 "$bumpmap2" 	"terrain/fr_grasswild_03_normal"
+	 "$surfaceprop2" "grass"
+
+	
+//	"%detailtype" "iraq_street_sparse"
+
+	"$blendmodulatetexture" "maps/terrain/af_blend_modulate"
+
+	"%keywords" "ins2,blend,bump" 
+}

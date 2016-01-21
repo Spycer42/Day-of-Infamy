@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "maps/terrain/af_mud_01"
+	 "$bumpmap" 	"maps/terrain/af_mud_01_norm"
+	 "$surfaceprop" "dirt"
+
+	"$baseTexture2" "maps/terrain/peak_soil_04"
+	"$bumpmap2"	"maps/terrain/peak_soil_02_normal"
+	"$surfaceprop2" "gravel"
+		
+//	"%detailtype" "ir_grass_dense"
+
+	"$blendmodulatetexture" "maps/terrain/modulate_ir_grass_rough_soil_01"
+
+	"%keywords" "ins2,blend,bump" 
+}

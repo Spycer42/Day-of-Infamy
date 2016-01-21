@@ -1,0 +1,113 @@
+detail
+{
+
+bastogne_grass
+	{
+		"density" "800.0"
+		
+		Group1
+		{
+			"alpha" "0.0"
+		}
+		
+		Group2
+		{
+			"alpha" "0.9"
+		}
+
+		
+		Group3
+		{
+			"alpha" "1.0"
+
+		//	Model1 //long grass snow
+		//	{
+		//		"sprite_shape"	"cross"
+		//		"sprite"	"0 0 512 256 1024"
+		//		"spritesize"	"0 0 80 40"
+		//		"spriterandomscale"	"0.2"
+		//		"amount" "0.2"
+		//		"detailOrientation" "0"
+		//		"shape_angle"	"15" 
+		//		"shape_size"	"0" 
+		//		"sway"	"0.5"
+		//	}
+			
+		//	Model2 //long grass snow thick
+		//	{
+		//		"sprite_shape"	"cross"
+		//		"sprite"	"512 0 512 256 1024"
+		//		"spritesize"	"0 0 80 40"
+		//		"spriterandomscale"	"0.4"
+		//		"amount" "0.002"
+		//		"detailOrientation" "0"
+		//		"shape_angle"	"5"
+		//		"shape_size"	"0"
+		//		"sway"	"0.5"
+		//	}
+		
+		//	Model3 //green plant
+		//	{
+		//		"sprite_shape"	"cross"
+		//		"sprite"	"0 256 256 256 1024"
+		//		"spritesize"	"0 0 20 20"
+		//		"spriterandomscale"	"0.2"
+		//		"amount" "0.01"
+		//		"detailOrientation" "0"
+		//		"shape_angle"	"5" 
+		//		"shape_size"	"0" 
+		//		"sway"	"0.5"
+		//	}
+		
+				Model4 //small grass snow
+			{
+				"sprite_shape"	"cross"
+				"sprite"	"256 256 256 256 1024"
+				"spritesize"	"0 0.2 25 25"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "0"
+				"shape_angle"	"5" 
+				"shape_size"	"0" 
+				"sway"	"0.5"
+			}
+			
+					Model5 //small bush snow
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"512 256 256 256 1024"
+				"spritesize"	"0 0.2 24 24"
+				"spriterandomscale"	"0.02"
+				"amount" "0.04"
+				"detailOrientation" "0"
+				"shape_angle"	"5" 
+				"shape_size"	"0" 
+				"sway"	"0.5"
+			}
+					Model6 //small bush2 snow
+			{
+				"sprite_shape"	"cross"
+				"sprite"	"768 256 256 256 1024"
+				"spritesize"	"0 0.2 18 18"
+				"spriterandomscale"	"0.02"
+				"amount" "0.02"
+				"detailOrientation" "0"
+				"shape_angle"	"5" 
+				"shape_size"	"0" 
+				"sway"	"0.5"
+			}
+					Model7 //small bush snow brownish
+			{
+				"sprite_shape"	"cross"
+				"sprite"	"0 512 256 256 1024"
+				"spritesize"	"0 0.2 35 35"
+				"spriterandomscale"	"0.02"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"5" 
+				"shape_size"	"0" 
+				"sway"	"0.5"
+			}	
+		}
+	}
+}

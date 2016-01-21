@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "maps/terrain/peak_soil_04"
+	"$bumpmap"	"maps/terrain/peak_soil_02_normal"
+	"$surfaceprop" "gravel"
+	
+	"$basetexture2" 	"maps/revolt/rev_sand_01"
+	"$bumpmap2" 		"maps/Mogadishu/Mog_Sand_01_wet_n"
+	 "$surfaceprop2" "sand"
+	 
+		
+	"%detailtype" "somalia_grass_beach"
+	
+	"$blendmodulatetexture" "maps/terrain/modulate_ir_grass_rough_soil_01"
+
+	"%keywords" "ins2,blend,bump" 
+}

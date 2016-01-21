@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "maps/terrain/ir_sand_01"
+	"$bumpmap" "maps/terrain/ir_sand_01_normal"
+	"$surfaceprop" "grass"
+	 
+	"$baseTexture2" "maps/terrain/af_mud_01"
+	 "$bumpmap2" 	"maps/terrain/af_mud_01_norm"
+	 "$surfaceprop2" "dirt"
+	
+	//"%detailtype" "iraq_street_sparse"
+	
+	"$blendmodulatetexture" "maps/terrain/modulate_ir_grass_rough_soil_01"
+	"$blendmasktransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+
+	"%keywords" "ins2,blend,bump" 
+}

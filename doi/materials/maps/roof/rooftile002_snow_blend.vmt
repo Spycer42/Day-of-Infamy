@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "maps/roof/rooftiles002"
+	"$bumpmap" "maps/roof/rooftiles002_normal"
+	"$surfaceprop" "ceiling_tile"
+	
+	"$basetexture2" "maps/verticality/vert_snow_01"
+	"$bumpmap2" 	"maps/verticality/vert_snow_03_n"
+	"$surfaceprop2" "snow"
+	
+	"%keywords" "ins2, doi" 
+}

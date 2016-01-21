@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+
+	"$basetexture" "skybox/sky_bastogne_night_dn"
+	"$nofog" 1
+	"$nomip" 1
+	$ignorez 1
+        $color "[.15 .15 .15]"
+}

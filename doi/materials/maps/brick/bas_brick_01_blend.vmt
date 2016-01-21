@@ -1,0 +1,14 @@
+WorldVertexTransition
+{
+"$baseTexture" "maps\brick\bas_brick_01"
+
+"$baseTexture2" "maps\plaster\bas_plaster_01"
+
+$blendmodulatetexture "maps\market\mog_wall_blend_01"
+
+
+"$surfaceprop" "plaster"
+
+"%keywords" "ins2, plaster,doi, blend"
+
+}

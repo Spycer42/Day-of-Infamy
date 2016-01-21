@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	"$basetexture" 	"maps/terrain/af_grass_03"	
+	"$bumpmap"	"maps/terrain/ch_mud_02_normal"
+
+	"$basetexture2" "maps/terrain/af_snow_solid"
+	"$bumpmap2"	"maps/terrain/af_snow_solid_norm"
+
+
+	"$blendmodulatetexture" "maps/terrain/af_blend_modulate_snow"
+
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "snow"
+	%detailtype bastogne_grass
+	
+	"%keywords" "ins2,afghanistan,blend" 
+	
+}

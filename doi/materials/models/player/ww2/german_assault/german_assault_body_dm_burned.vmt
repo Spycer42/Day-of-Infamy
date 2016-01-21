@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	$basetexture 		"models\player\ww2\german_assault\german_assault_body_dm"
+	$bumpmap 		"models\player\ww2\german_assault\german_assault_body_nm"
+	$phong 			"1"
+	$phongboost 		".15"
+	$phongexponent 		"5"
+	$phongtint		"[0.5 0.425 0.36]"
+	$halflambert 		"0"
+	$rimlight 		"0"
+	
+	$detail		"models\player\char_burned"
+	$detailscale 2
+}
