@@ -17,6 +17,7 @@
 *.RTF	 diff=astextplain
 *.mdl filter=lfs diff=lfs merge=lfs -text
 *.vtf filter=lfs diff=lfs merge=lfs -text
+*.nav filter=lfs diff=lfs merge=lfs -text
 *.bsp filter=lfs diff=lfs merge=lfs -text
 *.vmf filter=lfs diff=lfs merge=lfs -text
 *.vvd filter=lfs diff=lfs merge=lfs -text
