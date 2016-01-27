@@ -2,7 +2,7 @@
 
 "playlist"
 {
-	"name"							"Day of Infamy: Sustained Combat"
+	"name"							"Day of Infamy"
 	"description"					"Many reinforcements, for epic WWII combat"
 	"category"						"pvp" // Required: Menu category, should be "pvp" or "coop"
 	
@@ -29,6 +29,11 @@
 		"doi_bastogne_night" 	"skirmish"
 		"doi_bastogne_night" 	"occupy"
 		"doi_bastogne_night" 	"firefight"
+		"doi_landfall" 			"invasion"
+		"doi_landfall" 			"push"
+		"doi_landfall" 			"skirmish"
+		"doi_landfall" 			"occupy"
+		"doi_landfall" 			"firefight"
 	}
 	
 	// recommended settings but can be changed
@@ -120,6 +125,7 @@
 			"mp_cp_speedup_rate"				"0.4"
 			"mp_cp_speedup_max"					"6"
 			"mp_invasion_capture_time_extension" "600"
+			"mp_switchteams_each_round"			"1"
 		}
 		
 		"strike"
@@ -203,5 +209,12 @@
             "line_6"                "Team: German Army"
             "line_7"                ""
             "line_8"                ""
-    }
+    }    
+
+	// Localization files, loaded before anything in this file is referenced by UI, ideal
+	// for strings like map and gamemode names that will be displayed in the menu
+	"localization"
+	{
+		"file"		"resource/doi_menu_%language%.txt"
+	}
 }

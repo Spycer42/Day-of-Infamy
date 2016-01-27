@@ -1124,12 +1124,20 @@
 	"dsp_spatial"  "41"
 
 	"dsp_volume" "0.0"
-	"fadetime" "1.0"
+	"fadetime" "2.0"
 
 	"soundmixer"	"Default_Mix"
 	
 
 	// *** looping sounds *** //
+	
+		//	Wind Trees
+	"playlooping"
+	{
+		"volume"	"0.2" //0.2
+		"pitch"		"70"
+		"wave"	"soundscape\ambience\forest_wind_trees.wav"
+	}
 	
 
 	//	Cold wind synth

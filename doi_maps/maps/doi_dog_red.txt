@@ -1,6 +1,8 @@
 "cpsetup.txt"
 {
 
+	"compassOffset" "180"
+
 	"navfile"   		"doi_dog_red"
 	"nightlighting"		"0"
 	"theaterfile"		"doi"
@@ -140,6 +142,121 @@
 				"angles"		"0 0 0"
 				"targetname"	"radiopoint_c"
 			}
+		}
+	}
+	
+	"conquer"
+	{
+		"AttackingTeam"		"security"
+		
+		"controlpoint"		"pushpoint_02"
+	    "controlpoint"		"cap_02"
+		"controlpoint"		"cap_03" 
+		"controlpoint"		"radiopoint_a"
+		"controlpoint"		"radiopoint_b"
+		"controlpoint"		"radiopoint_c"
+		"controlpoint"		"radiopoint_d"
+		"controlpoint"		"radiopoint_e"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+		}
+
+		"navspawns"
+		{
+			"navspawn"
+			{
+				"origin"		"551.486633 -3538.956055 -242.081833"
+				"teamnumber"	"2"
+				"bonus" 		"0"
+				"expandtype"	"box"
+				"expandradius"	"600.0"
+				"playerspread"	"48"
+			}
+		}
+		
+		"entities"
+		{			
+			// radio A
+			"obj_destructible"
+			{
+				"origin"		"2032 4176 741"
+				"angles"		"0 90 0"
+				"targetname"	"radio_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"radiopoint_a"
+			}		
+			"point_controlpoint"
+			{
+				"origin"		"2032 4176 813"
+				"angles"		"0 0 0"
+				"targetname"	"radiopoint_a"
+			}	
+			
+			// radio B
+			"obj_destructible"
+			{
+				"origin"		"-160 6169 343"
+				"angles"		"0 0 0"
+				"targetname"	"radio_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"radiopoint_b"
+			}						
+			"point_controlpoint"
+			{
+				"origin"		"-160 6169 415"
+				"angles"		"0 0 0"
+				"targetname"	"radiopoint_b"
+			}
+			
+			// radio C
+			"obj_destructible"
+			{
+				"origin"		"-998 8748 511"
+				"angles"		"0 270 0"
+				"targetname"	"radio_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"radiopoint_c"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-998 8748 583"
+				"angles"		"0 0 0"
+				"targetname"	"radiopoint_c"
+			}
+		
+			// Radio d
+			"obj_destructible"
+			{
+				"origin"		"-2382 9400 679"
+				"angles"		"0 90 0"
+				"targetname"	"radio_d"
+				"teamnumber"	"3"
+				"ControlPoint"	"radiopoint_d"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-2382 9400 751"
+				"angles"		"0 0 0"
+				"targetname"	"radiopoint_d"
+			}
+			
+			// radio E
+			"obj_destructible"
+			{
+				"origin"		"-289.587463 1412.827393 -5.402092"
+				"angles"		"0.000000 -174.237244 0.000000"
+				"targetname"	"radio_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"radiopoint_e"
+			}	
+			"point_controlpoint"
+			{
+				"origin"		"-289.587463 1412.827393 47.402092"
+				"angles"		"0.000000 -174.237244 0.000000"
+				"targetname"	"radiopoint_e"
+			}			
 		}
 	}
 }

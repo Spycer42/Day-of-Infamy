@@ -156,6 +156,8 @@
 	{
 		"AttackingTeam"		"insurgents"
 		"controlpoint"		"radiopoint_a"
+		"controlpoint"		"radiopoint_b"
+		"controlpoint"		"radiopoint_c"
 		
 		"spawnzones"
 		{
@@ -167,17 +169,49 @@
 			// radio a
 			"obj_destructible"
 			{
-				"origin"		"38.761440 -181.878601 -74.488983"
-				"angles"		"0.000000 -178.894684 0.000000"
+				"origin"		"2945.882813 -4992.447266 96.031250"
+				"angles"		"0.000000 -89.993538 0.000000"
 				"targetname"	"radio_a"
 				"teamnumber"	"2"
 				"ControlPoint"	"radiopoint_a"
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"38.761440 -181.878601 -22.488983"
-				"angles"		"0.000000 -178.894684 0.000000"
+				"origin"		"2945.882813 -4992.447266 148.031250"
+				"angles"		"0.000000 -89.993538 0.000000"
 				"targetname"	"radiopoint_a"
+			}	
+			
+			// radio b
+			"obj_destructible"
+			{
+				"origin"		"2049.855469 2333.596191 110.635712"
+				"angles"		"0.000000 180 0.000000"
+				"targetname"	"radio_b"
+				"teamnumber"	"2"
+				"ControlPoint"	"radiopoint_b"
+			}	
+			"point_controlpoint"
+			{
+				"origin"		"2049.855469 2333.596191 162.635712"
+				"angles"		"0.000000 180 0.000000"
+				"targetname"	"radiopoint_b"
+			}
+			
+			// radio c
+			"obj_destructible"
+			{
+				"origin"		"-1659.013550 2359.318604 68.921951"
+				"angles"		"0.000000 177.323669 0.000000"
+				"targetname"	"radio_c"
+				"teamnumber"	"2"
+				"ControlPoint"	"radiopoint_c"
+			}	
+			"point_controlpoint"
+			{
+				"origin"		"-1659.013550 2359.318604 120.921951"
+				"angles"		"0.000000 177.323669 0.000000"
+				"targetname"	"radiopoint_c"
 			}
 		}
 	}
@@ -266,18 +300,18 @@
 			// radio d
 			"obj_destructible"
 			{
-				"origin"		"38.761440 -181.878601 -74.488983"
-				"angles"		"0.000000 -178.894684 0.000000"
+				"origin"		"2945.882813 -4992.447266 96.031250"
+				"angles"		"0.000000 -89.993538 0.000000"
 				"targetname"	"radio_d"
 				"teamnumber"	"2"
 				"ControlPoint"	"radiopoint_d"
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"38.761440 -181.878601 -22.488983"
-				"angles"		"0.000000 -178.894684 0.000000"
+				"origin"		"2945.882813 -4992.447266 148.031250"
+				"angles"		"0.000000 -89.993538 0.000000"
 				"targetname"	"radiopoint_d"
-			}
+			}	
 			
 			// radio E
 			"obj_destructible"

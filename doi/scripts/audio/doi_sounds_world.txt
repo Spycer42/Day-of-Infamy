@@ -130,3 +130,30 @@
 	"soundlevel"  	"SNDLVL_140dB"
 	"wave"	")soundscape\emitters\loop\ww2_distant_firefight_loop.wav"	
 }
+
+"World.Generic.LCVP_DoorOpen"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_80dB"
+	"wave"	")dynamic\lcvp_door_open.wav"
+}
+
+"World.Generic.LCVP_DoorHit_Land"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_80dB"
+	"wave"	")dynamic\lvcp_door_hit_land.wav"
+}
+
+"World.Generic.LCVP_DoorHit_WaterLayer"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_80dB"
+	"wave"	")dynamic\lvcp_door_hit_water_layer.wav"
+}

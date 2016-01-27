@@ -1047,7 +1047,7 @@
 			"world_model"				"models/weapons/w_garand.mdl"
 			"rounds_per_minute"			"600"
 			"weapon_slot"				"primary"
-			"act_table"					"shortrifle"
+			"act_table"					"rifle_clip"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"160"
 			"weapon_cost"				"2"
@@ -1499,6 +1499,36 @@
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			
+			"viewmodel_attachments"
+			{
+				"standard_thompson"
+				{
+					"model"						"models/weapons/upgrades/a_thompson_standard.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				
+				"magazine_thompson"
+				{
+					"model"						"models/weapons/upgrades/a_thompson_mag_20.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+			}
+			
+			"world_attachments"
+			{
+				"standard_thompson"
+				{
+					"model"						"models/weapons/upgrades/w_thompson_standard.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				
+				"magazine_thompson"
+				{
+					"model"						"models/weapons/upgrades/w_thompson_mag_20.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+			}
+			
 			"fov"
 			{
 				"fov_plr_ironsight"			"-15"
@@ -1556,9 +1586,9 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"				"45acp"
+				"ammo_type"				"45acp_thompson"
 				"clip_max"				"12"
-				"clip_max_rounds"		"30"
+				"clip_max_rounds"		"20"
 				"clip_default"			"3"
 			}
 			"attachments"
@@ -1567,7 +1597,7 @@
 			}
 			"kitui_offset"
 			{
-				"position"				"17 1 0"
+				"position"				"17 1 2"
 			}
 			"team_access"				"security"
 		}
@@ -2130,7 +2160,7 @@
 			
 			"attachments"
 			{
-				"attachment_addon"		"Primary2
+				"attachment_addon"		"primary"
 			}
 			
 			"kitui_offset"

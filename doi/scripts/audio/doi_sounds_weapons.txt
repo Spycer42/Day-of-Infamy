@@ -3045,6 +3045,55 @@
 	"wave"			"weapons/m1928a1/handling/m1928a1_fireselect_1.wav"  
 }
 
+
+//DRUM MAG
+
+"Weapon_m1928a1.DrumMagout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_drum_magout.wav" 
+}
+
+"Weapon_m1928a1.DrumMagoutRattle"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_drum_magout_rattle.wav" 
+}
+
+"Weapon_m1928a1.DrumMagFetch"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_drum_mag_fetch.wav" 
+}
+
+"Weapon_m1928a1.DrumMagIn"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_drum_magin.wav" 
+}
+
+"Weapon_m1928a1.DrumMagHit"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_drum_maghit.wav" 
+}
+
+
 // --------------------------
 // PANZERFAUST LAUNCHER
 // --------------------------
@@ -4205,6 +4254,24 @@
 	"pitch"		"PITCH_NORM"
 	"wave"		"weapons/stielhandgranate/handling/stielhandgranate_throw_01.wav" 
 }
+
+"Weapon_Stielhandgranate.CapOff"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.2"
+    "pitch"		"PITCH_NORM"
+	"wave"		"weapons/stielhandgranate/handling/stielhandgranate_capoff.wav" 
+}
+
+
+"Weapon_Stielhandgranate.RopePull"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.45"
+    "pitch"		"PITCH_NORM"
+	"wave"		"weapons/stielhandgranate/handling/stielhandgranate_ropepull.wav" 
+}
+
 
 
 

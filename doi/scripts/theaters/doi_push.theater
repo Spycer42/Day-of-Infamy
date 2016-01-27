@@ -28,8 +28,8 @@
 						"#class_american_assault"		"template_american_assault"
 						"#class_american_assault"		"template_american_assault"
 						"#class_american_assault"		"template_american_assault"
-						"#class_american_assault"		"template_american_assault"
-						"#class_american_assault"		"template_american_assault"
+						"#class_american_rifleman"		"template_american_rifleman"
+						"#class_american_rifleman"		"template_american_rifleman"
 						"#class_american_demolitions"	"template_american_demolitions"
 						"#class_american_demolitions"	"template_american_demolitions"
 					}
@@ -38,7 +38,7 @@
 					{
 						"#class_american_officer"		"template_american_officer"
 						"#class_american_assault"		"template_american_assault"
-						"#class_american_assault"		"template_american_assault"
+						"#class_american_rifleman"		"template_american_rifleman"
 						"#class_american_rifleman"		"template_american_rifleman"
 						"#class_american_rifleman"		"template_american_rifleman"
 						"#class_american_rifleman"		"template_american_rifleman"
@@ -70,8 +70,8 @@
 						"#class_american_assault"		"template_american_assault"
 						"#class_american_assault"		"template_american_assault"
 						"#class_american_assault"		"template_american_assault"
-						"#class_american_assault"		"template_american_assault"
-						"#class_american_assault"		"template_american_assault"
+						"#class_american_rifleman"		"template_american_rifleman"
+						"#class_american_rifleman"		"template_american_rifleman"
 						"#class_american_demolitions"	"template_american_demolitions"
 						"#class_american_demolitions"	"template_american_demolitions"
 					}
@@ -80,7 +80,7 @@
 					{
 						"#class_american_officer"		"template_american_officer"
 						"#class_american_assault"		"template_american_assault"
-						"#class_american_assault"		"template_american_assault"
+						"#class_american_rifleman"		"template_american_rifleman"
 						"#class_american_rifleman"		"template_american_rifleman"
 						"#class_american_rifleman"		"template_american_rifleman"
 						"#class_american_rifleman"		"template_american_rifleman"
@@ -115,8 +115,8 @@
 						"#class_german_assault"			"template_german_assault"
 						"#class_german_assault"			"template_german_assault"
 						"#class_german_assault"			"template_german_assault"
-						"#class_german_assault"			"template_german_assault"
-						"#class_german_assault"			"template_german_assault"
+						"#class_german_rifleman"		"template_german_rifleman"
+						"#class_german_rifleman"		"template_german_rifleman"
 						"#class_german_demolitions"		"template_german_demolitions"
 						"#class_german_demolitions"		"template_german_demolitions"
 					}
@@ -125,7 +125,7 @@
 					{
 						"#class_german_officer"			"template_german_officer"
 						"#class_german_assault"			"template_german_assault"
-						"#class_german_assault"			"template_german_assault"
+						"#class_german_rifleman"		"template_german_rifleman"
 						"#class_german_rifleman"		"template_german_rifleman"
 						"#class_german_rifleman"		"template_german_rifleman"
 						"#class_german_rifleman"		"template_german_rifleman"
@@ -157,8 +157,8 @@
 						"#class_german_assault"			"template_german_assault"
 						"#class_german_assault"			"template_german_assault"
 						"#class_german_assault"			"template_german_assault"
-						"#class_german_assault"			"template_german_assault"
-						"#class_german_assault"			"template_german_assault"
+						"#class_german_rifleman"		"template_german_rifleman"
+						"#class_german_rifleman"		"template_german_rifleman"
 						"#class_german_demolitions"		"template_german_demolitions"
 						"#class_german_demolitions"		"template_german_demolitions"
 					}
@@ -167,7 +167,7 @@
 					{
 						"#class_german_officer"			"template_german_officer"
 						"#class_german_assault"			"template_german_assault"
-						"#class_german_assault"			"template_german_assault"
+						"#class_german_rifleman"		"template_german_rifleman"
 						"#class_german_rifleman"		"template_german_rifleman"
 						"#class_german_rifleman"		"template_german_rifleman"
 						"#class_german_rifleman"		"template_german_rifleman"

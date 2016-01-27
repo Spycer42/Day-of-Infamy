@@ -227,6 +227,117 @@
 			}
 		}
 		
+		"magazine_extended_thompson_30rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+			
+			"print_name"				"#weapon_upgrade_magazine_extended_thompson_30"
+			"print_desc"				"#weapon_upgrade_magazine_extended_thompson_30_desc"
+
+			"magsize_override"			"30"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_thompson"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_thompson"
+				{
+					"model"				"models/weapons/upgrades/a_thompson_mag_30.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_thompson"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine_thompson_30"
+				{
+					"model"				"models/weapons/upgrades/w_thompson_mag_30.mdl"
+				}
+			}
+		}
+		
+		"magazine_extended_thompson_50rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"5"
+			"team_access"				"security, insurgent"
+			
+			"print_name"				"#weapon_upgrade_magazine_extended_thompson_50"
+			"print_desc"				"#weapon_upgrade_magazine_extended_thompson_50_desc"
+
+			"class_restricted"			"1"
+			
+			"magsize_override"			"50"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_thompson"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_thompson"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_thompson_mag_50.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_thompson"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine_thompson_50"
+				{
+					"model"				"models/weapons/upgrades/w_thompson_mag_50.mdl"
+				}
+			}
+		}
+		
+		// ========================================
+		// Foregrips
+		// ========================================
+		
+		"underbarrel_foregrip_thompson"
+		{
+			"import"					"base_foregrip"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_thompson"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"foregrip_thompson"
+				{
+					"model"					"models/weapons/upgrades/a_thompson_foregrip.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+				}
+			}
+			
+			"world_attachments"
+			{
+				"foregrip_thompson"
+				{
+					"model"				"models/weapons/upgrades/w_thompson_foregrip.mdl"
+				}
+			}
+		}
+		
 		// ========================================
 		// Optics
 		// ========================================

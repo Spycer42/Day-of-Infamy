@@ -26,6 +26,7 @@
 			
 			// localization
 			"localize"       	"resource/doi_%language%.txt"
+			"localize"       	"resource/doi_menu_%language%.txt"
 			
 			// custom particles
 			"particles"			"particles/doi_weapon_fx.pcf"
@@ -105,13 +106,13 @@
 				"weapon_upgrade"		"magazine_extended_carbine_30rd"
 				"weapon_upgrade"		"default_bayonet"
 				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"magazine_extended_thompson_50rd"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
 					"weapon_smoke"		"-1"
-					"weapon_m1garand"	"1"
 				}
 			}
 		}
@@ -245,10 +246,12 @@
 				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_bar"
 				"weapon"				"weapon_m1919"
+				"weapon"				"weapon_thompson"
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_mk2"
 				"weapon"				"weapon_smoke"
 				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"magazine_extended_thompson_50rd"
 			}
 			"cost_modifiers"
 			{
