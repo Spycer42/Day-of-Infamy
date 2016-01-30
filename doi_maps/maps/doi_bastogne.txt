@@ -130,9 +130,11 @@
 	
 	"firefight"	
 	{
+		"controlpoint"		"push_cap_c"
 	    "controlpoint"		"skirmish_cap_c"
 		"controlpoint"		"push_cap_b"
 		"controlpoint"		"skirmish_cap_a" 
+		"controlpoint"		"push_cap_a"
 		
 		"spawnzones"
 		{

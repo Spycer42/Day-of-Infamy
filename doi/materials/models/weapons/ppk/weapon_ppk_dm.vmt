@@ -2,6 +2,8 @@
 {
 	"$basetexture"			"models\weapons\ppk\weapon_ppk_dm"
 	"$bumpmap"			"models\weapons\ppk\weapon_ppk_nm"
+	
+	"$nocull"			"1"
 
 	"$phong"  			"1"
 	"$phongexponent" 		"36"

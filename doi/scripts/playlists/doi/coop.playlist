@@ -21,6 +21,7 @@
 		"doi_bastogne_night"	"conquer"
 		"doi_landfall"			"checkpoint"
 		"doi_landfall"			"conquer"
+		"doi_landfall"			"outpost"
 	}
 	
 	"cvars"

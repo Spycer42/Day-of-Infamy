@@ -851,6 +851,7 @@
 			"view_model"				"models/weapons/v_kar98k.mdl"
 			"world_model"				"models/weapons/w_kar98k.mdl"
 			"fire_cycle"				"0.2"
+			"closed_bolt"				"0"
 			"weapon_slot"				"primary"
 			"act_table"					"bolt"
 			"weapon_abilities"			"ironsight"
@@ -1055,9 +1056,9 @@
 			
 			"viewmodel_attachments"
 			{
-				"ironsight"
+				"standard_garand"
 				{
-					"model"					"models\weapons\upgrades\a_iron_garand_s.mdl"
+					"model"					"models\weapons\upgrades\a_standard_garand.mdl"
 					"fallback_for_slot"		"optics"
 				}
 			}

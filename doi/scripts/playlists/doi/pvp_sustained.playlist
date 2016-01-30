@@ -33,7 +33,6 @@
 		"doi_landfall" 			"push"
 		"doi_landfall" 			"skirmish"
 		"doi_landfall" 			"occupy"
-		"doi_landfall" 			"firefight"
 	}
 	
 	// recommended settings but can be changed
@@ -50,8 +49,6 @@
 		"mp_timer_postgame"				"10"	// timer for the post-game (at the end of a game / map rotation)
 		"mp_voice_use_3d_voip"			"1"		// disabling this will turn off the 3d voip system and allow all players to hear one another
 		"ins_bot_quota"					"0"		// if set higher than 0, the server will add this many bots to each team
-		
-		"mapcyclefile"					"mapcycle_doi_pvp_sustained.txt"
 		
 		"occupy"
 		{
@@ -142,8 +139,9 @@
 		
 		"firefight"
 		{
-			"mp_roundtime"						"600"
-			"mp_cp_speedup_rate"				"0.26"
+			"mp_roundtime"						"900"
+			"mp_cp_capture_time"				"15"
+			"mp_cp_speedup_rate"				"0.3"
 			"mp_cp_speedup_max"					"4"
 		}
 	}
